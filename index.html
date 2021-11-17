@@ -32,7 +32,7 @@
 <script src="https://cdn.jsdelivr.net/gh/g8hh/g8hh.github.io/zh/core.js"></script>
   <div id="app">
     <div>
-      <span><button onclick="saveGame()">Save</button> <button onclick="loadGame(prompt('Enter your save:'))">Load</button> <button onclick="exportGame()">Export</button> <button onclick="nextTheme()">Current theme: {{ player.currentTheme }}</button></span>
+      <span><button onclick="saveGame()">Save</button> <button onclick="loadGame(prompt('粘贴你的存档:'))">Load</button> <button onclick="exportGame()">Export</button> <button onclick="nextTheme()">Current theme: {{ player.currentTheme }}</button></span>
     </div>
     <h3>Notice: This is not my Game (only modified). The <a href="https://dan-simon.github.io/misc/b2/">Original Game</a> by Dan-Simon can be played here.</h3>
     <div v-if="player.generators.length > 3">
