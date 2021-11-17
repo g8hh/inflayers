@@ -308,6 +308,7 @@ var cnRegReplace = new Map([
     [/^Next at (.+) points$/, '下一个在 $1 点数'],
     [/^(\d+)th Dimension$/, '第 $1 维度'],
     [/^(\d+)th Infinity Dimension$/, '第 $1 无限维度'],
+    [/^(\d+)th Eternity Dimension$/, '第 $1 永恒维度'],
 	[/^([\d\.]+)\/sec$/, '$1\/秒'],
 	[/^([\d\.,]+)\/sec$/, '$1\/秒'],
 	[/^([\d\.]+)e([\d\.,]+)\/sec$/, '$1e$2\/秒'],
