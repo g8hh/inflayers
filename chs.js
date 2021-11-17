@@ -309,7 +309,7 @@ var cnRegReplace = new Map([
     [/^You are gaining (.+) elves per second$/, '你每秒获得 $1 精灵'],
     [/^You have (.+) infinity power, translated to a$/, '你有 $1 无限力量，转换为'],
     [/^Get (.+) infinity points.$/, '获得 $1 无限点。'],
-    [/^You have (.+) money$/, '你有 $1 钱'],
+    [/^You have (.+) money$/, '你有 $1 金钱'],
     [/^You have (.+) infinity points$/, '你有 $1 无限点'],
     [/^Next at (.+) points$/, '下一个在 $1 点数'],
 	[/^([\d\.]+)\/sec$/, '$1\/秒'],
